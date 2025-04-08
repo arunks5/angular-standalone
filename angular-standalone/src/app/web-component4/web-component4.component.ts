@@ -3,7 +3,7 @@ import '@shoelace-style/shoelace/dist/components/button/button.js'
 
 @Component({
   selector: 'app-web4',
-  template: `<sl-button [variant]="'primary'">Button4</sl-button>`,
+  template: `<sl-button [variant]="'success'">Button4</sl-button>`,
   standalone: true,
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
